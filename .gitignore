@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.idea/
+.vscode/
+.DS_Store
+
+# Локальные данные и секреты: бэкапы GoalFlow содержат рабочие данные,
+# а .env-файлы — ключи API. В репозиторий не попадают.
+goalflow-backup-*.json
+goalflow-tasks-*.csv
+goalflow-time-*.csv
+.env
+.env.*
+*.local

@@ -1,0 +1,8 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    // Скрипты выполняются в Node, поэтому к типам исходников добавляются node-глобали.
+    "types": ["node"]
+  },
+  "include": ["**/*.ts"]
+}
